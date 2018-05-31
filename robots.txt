@@ -1,0 +1,45 @@
+User-agent: Yandex
+Allow: /blog/wp-content/uploads
+Disallow: /lp/
+
+Disallow: /blog/wp-login.php
+Disallow: /blog/wp-register.php
+Disallow: /blog/feed/
+Disallow: /blog/trackback
+Disallow: /blog/cgi-bin
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-includes/
+Disallow: /blog/wp-content/plugins
+Disallow: /blog/wp-content/cache
+Disallow: /blog/wp-content/themes
+Disallow: /blog/wp-trackback
+Disallow: /blog/wp-feed
+Disallow: /blog/wp-comments
+Disallow: */blog/trackback
+Disallow: */blog/feed
+Disallow: /blog/tag/
+Disallow: */blog/page/*
+Disallow: */blog/wp-json/*
+Host: shkola-sila.ru
+
+User-agent: *
+
+Disallow: /lp/
+Disallow: /blog/wp-login.php
+Disallow: /blog/wp-register.php
+Disallow: /blog/feed/
+Disallow: /blog/trackback
+Disallow: /blog/cgi-bin
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-includes/
+Disallow: /blog/wp-content/plugins
+Disallow: /blog/wp-content/cache
+Disallow: /blog/wp-content/themes
+Disallow: /blog/wp-trackback
+Disallow: /blog/wp-feed
+Disallow: /blog/wp-comments
+Disallow: */blog/trackback
+Disallow: */blog/feed
+Disallow: /blog/tag/
+Disallow: */blog/page/*
+Disallow: */blog/wp-json/*

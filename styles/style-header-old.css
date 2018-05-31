@@ -1,0 +1,799 @@
+/*==============================HEADER=============================*/
+
+.header {
+
+  min-height: 900px;
+
+  padding-top: 63px;
+
+  background-image: url(../images/header-bg-main.jpg);
+
+  background-position: 50% 0;
+
+  background-size: cover;
+
+}
+
+.header input::-webkit-input-placeholder {
+
+  color: #fff;
+
+}
+
+
+
+.header input::-moz-placeholder {
+
+  color: #fff;
+
+}
+
+
+
+.header input:-moz-placeholder {
+
+  color: #fff;
+
+}
+
+
+
+.header input:-ms-input-placeholder {
+
+  color: #fff;
+
+}
+
+
+
+.header-top {
+
+  margin-bottom: 25px;
+
+}
+
+
+
+.logo {
+
+  background-repeat: no-repeat;
+
+  background-image: url(../images/logo.png);
+
+  background-position: 0 0;
+
+  padding-top: 3px;
+
+  padding-left: 47px;
+
+  color: #fff;
+
+}
+
+
+
+.logo__name {
+
+  margin-bottom: 3px;
+
+}
+
+
+
+.logo__description {
+
+  font-family: 'banderaprolight';
+
+}
+
+
+
+a.top-contact__phone {
+
+  display: inline-block;
+
+  margin-bottom: 5px;
+
+  font-family: 'banderapro-bold';
+
+  text-decoration: none;
+
+  color: #fff;
+
+}
+
+
+
+.top-contact__adress {
+
+  font-family: 'banderaprolight';
+
+  color: #fff;
+
+}
+
+
+
+.slogan {
+
+  position: relative;
+
+  padding-top: 75px;
+
+}
+
+.slogan:after {
+
+  content: '';
+
+  display: block;
+
+  position: absolute;
+
+  top: 190px;
+
+  right: -85px;
+
+  width: 218px;
+
+  height: 119px;
+
+  background-image: url(../images/white-arrow.png);
+
+}
+
+.header-menu-wrap {
+
+  min-height: 50px;
+
+  background-color: #38FCEE;
+
+  margin-bottom: 50px;
+
+}
+
+
+
+.header-switcher {
+
+  position: absolute;
+
+  display: none;
+
+  width: 50px;
+
+  height: 50px;
+
+  right: 0;
+
+  top: -37px;
+
+  background-image: url(../images/icon-menu-btn.png);
+
+  background-position: right 50%;
+
+  background-repeat: no-repeat;
+
+  margin-right: 15px;
+
+  cursor: pointer;
+
+}
+
+.header-switcher.active {
+
+  background-image: url(../images/icon-menu-btn-active.png);
+
+}
+
+
+
+.header-menu {
+
+  font-size: 0;
+
+  padding-left: 15px;
+
+}
+
+.header-menu > li {
+
+  padding: 22px 0;
+
+  display: inline-block;
+
+  margin-right: 50px;
+
+  position: relative;
+
+}
+
+.header-menu > li:last-child:after {
+
+  display: none;
+
+}
+
+.header-menu > li:after {
+
+  content: '';
+
+  display: block;
+
+  position: absolute;
+
+  width: 1px;
+
+  height: 20px;
+
+  right: -25px;
+
+  top: 21px;
+
+  background: #000;
+
+}
+
+.header-menu > li a {
+
+  font-family: 'RalewayMedium';
+
+  font-size: 16px;
+
+  color: #000;
+
+}
+
+.header-menu > li a:hover {
+
+  text-decoration: underline;
+
+}
+
+.header-sub-menu {
+
+  position: absolute;
+
+  top: 61px;
+
+  left: -25px;
+
+  display: none;
+
+  background-color: #FCC938;
+
+  font-size: 0;
+
+  padding: 0;
+
+  min-width: 200px;
+
+  border: 2px solid #000;
+
+  z-index: 20;
+
+}
+
+.header-sub-menu li {
+
+  margin: 0;
+
+  display: block;
+
+}
+
+.header-sub-menu li:after {
+
+  display: none;
+
+}
+
+.header-sub-menu li a {
+
+  padding-left: 24px;
+
+  display: block;
+
+  font-family: 'RalewayMedium';
+
+  font-size: 16px;
+
+  color: #000;
+
+  height: 40px;
+
+  line-height: 40px;
+
+}
+
+.header-sub-menu li a:hover {
+
+  text-decoration: none;
+
+  background: #eaad00;
+
+}
+
+
+
+.show-sub:hover .header-sub-menu {
+
+  display: block;
+
+}
+
+.header-switcher {
+
+  position: absolute;
+
+  display: none;
+
+  width: 50px;
+
+  height: 50px;
+
+  right: 0;
+
+  top: -37px;
+
+  background-image: url(../images/icon-menu-btn.png);
+
+  background-position: right 50%;
+
+  background-repeat: no-repeat;
+
+  margin-right: 15px;
+
+  cursor: pointer;
+
+}
+
+.header-switcher.active {
+
+  background-image: url(../images/icon-menu-btn-active.png);
+
+}
+
+.slogan__title {
+
+  margin-bottom: 23px;
+
+  color: #293F9F;
+
+  font-family: 'banderapro-bold';
+
+  font-size: 32px;
+
+  text-transform: uppercase;
+
+  text-align: left;
+
+  letter-spacing: 0.06em;
+
+  line-height: 1.2;
+
+}
+
+
+
+.slogan__text {
+
+  margin-bottom: 50px;
+
+  font-family: 'RalewayMedium';
+
+  color: #fff;
+
+}
+
+.slogan__text2 {
+
+  margin-bottom: 50px;
+
+  font-family: 'RalewayMedium';
+
+  color: #fff;
+
+}
+
+.occupancy__text {
+
+  margin-bottom: 15px;
+
+  font-family: 'RalewayLight';
+
+  color: #fff;
+
+}
+
+.occupancy__text span {
+
+  color: #FCC938;
+
+}
+
+
+
+.occupancy-progress {
+
+  font-size: 0;
+
+}
+
+.occupancy-progress span {
+
+  margin-right: 5px;
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  width: 40px;
+
+  height: 10px;
+
+  background: #fff;
+
+}
+
+.occupancy-progress span.full {
+
+  background-color: #FCC938;
+
+}
+
+
+
+.top-form-wrap {
+
+  margin-right: 15px;
+
+  padding: 77px 90px 105px 80px;
+
+  width: 440px;
+
+  height: 460px;
+
+  background: none;
+
+  background-image: url(../images/bg-top-form.png);
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+}
+
+
+
+.top-form__title {
+
+  margin-bottom: 35px;
+
+  font-size: 16px;
+
+  text-transform: uppercase;
+
+  color: #FFF;
+
+  letter-spacing: 0.06em;
+
+  font-family: 'banderapro-bold';
+
+  line-height: 24px;
+
+}
+
+
+
+.top-form__field {
+
+  outline: none;
+
+  margin-bottom: 14px;
+
+  width: 100%;
+
+  height: 35px;
+
+  padding-left: 18px;
+
+  color: #fff;
+
+  background: transparent;
+
+  border-bottom: 1px solid #fff;
+
+}
+
+
+
+.top-form__btn {
+
+  margin-top: 32px;
+
+}
+
+@media screen and (max-width: 1199px) {
+
+  .slogan__title {
+
+    font-size: 27px;
+
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .header{
+
+    padding-bottom: 70px;
+
+  }
+
+  .slogan {
+
+    padding-top: 5px;
+
+    text-align: center;
+
+  }
+
+  .slogan__title{
+
+    text-align: center;
+
+  }
+
+  .slogan:after {
+
+    display: none;
+
+  }
+
+
+
+  .occupancy {
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+  }
+
+
+
+  .top-form-block {
+
+    float: none !important;
+
+  }
+
+
+
+  .top-form-wrap {
+
+    float: none !important;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    width: 100%;
+
+    max-width: 440px;
+
+    background-image: none;
+
+    text-align: center;
+
+  }
+
+
+
+  .top-contact {
+
+    text-align: right;
+
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .h2 {
+
+    font-size: 27px;
+
+  }
+
+
+
+  .header-top {
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+  }
+
+  .header-menu-wrap {
+
+    margin-bottom: 20px;
+  background-color: #38FCEE;
+    padding-top: 37px;
+
+  }
+
+  .header-switcher {
+
+    display: block;
+
+  }
+
+  .header-menu {
+
+    display: block;
+
+    padding: 10px 15px;
+
+  }
+.gitar-menu{
+  position: static;
+  width: 100%;
+  background-color: #D8A30C;
+
+}
+  .header-menu li {
+
+    display: block;
+
+    padding: 0;
+
+    text-align: center;
+
+    margin: 4px 0;
+
+  }
+
+  .header-menu li:after {
+
+    display: none;
+
+  }
+
+  .header-menu li a {
+
+    padding: 7px 0;
+
+    display: block;
+
+    border: 2px solid #000;
+
+    text-transform: uppercase;
+
+  }
+
+  .header-menu li a:hover {
+
+    text-decoration: none;
+
+  }
+
+
+
+  .header-switcher {
+
+    display: block;
+
+  }
+
+
+
+  .header-sub-menu {
+
+    position: static;
+
+    width: 80%;
+
+    border: 0;
+
+    margin: 0 10%;
+
+  }
+
+  .header-sub-menu li a {
+
+    border: 1px solid #000;
+
+    padding: 0;
+
+  }
+
+
+
+  .logo {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+  }
+
+
+
+  .slogan-wrap {
+
+    float: none !important;
+
+  }
+
+
+
+  .top-contact{
+
+    text-align: center;
+
+  }
+
+
+
+  .top-form-block {
+
+    float: none !important;
+
+  }
+  .trial-form-wrap {
+    left: 0 !important;
+  }
+
+
+  .slogan__title {
+
+    font-size: 23px;
+
+  }
+.teacher-block{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.teacher-block iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.teacher-media{
+  height: 100% !important; 
+  padding-bottom: 0 !important;
+}
+.quote-block__photo {
+  float: none;
+  text-align: center;
+  margin: 0 auto 25px;
+  }
+  .quote-block__text1{
+    text-align: center;
+    margin-left: 0;
+  }
+  .quote-block__text:before {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+
+  .slogan__title {
+
+    font-size: 20px;
+
+  }
+
+
+}
